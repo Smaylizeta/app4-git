@@ -1,0 +1,295 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Contaminacion Ambiental</title> 
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/Tema4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--   <script src="js/acciones.js"></script> -->
+   <script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+</head>
+ <body onLoad="MM_preloadImages('imagenes/mi colonia1.jpg','imagenes/contaminacion4.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Contaminacion Ambiental</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Contaminacion En Mi Medio Ambiente:</h1>
+        <div>
+          <p>Esta es una imagen de la contaminacion en mi medio Ambiente:</p>
+          <br>
+      </div>
+        <div>
+        <img src="imagenes/contaminacion7.png" width="60%" height="60%">
+         <img src="imagenes/contaminacion12.jpg" width="60%" height="60%">
+        </div>
+     </div>
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Contaminacion En Mi Localidad:</h1>
+        <div>
+          <p>Esta es una imagen de la contaminacion En mi localidad:</p>
+          <br>
+      </div>
+        <div>
+        <img src="imagenes/mi colonia1.jpg" width="60%" height="60%">
+        <img src="imagenes/mi colonia3.jpg" width="60%" height="60%">
+        </div>
+     </div>
+   </div>
+  <div>
+       <ul data role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Definicion</h2>
+         <p>¿Que es la contaminacion?</p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Tipos De Contaminacion</h2>
+           <p>Se muestran los tipos de contaminacion que existen</p>
+         </a>
+        </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Consecuencias</h2>
+ <p>Demostracion de consecuencias con enfoque al calentamiento global</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Reciclaje</h2>
+ <p>¿Que es y como se clasifica el reciclaje?</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Medidas para combatirlas </h2>
+ <p>Diferentes Medidas</p>
+ </a>
+ </li>
+ </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="res/android/leaves-icon.png" width="128" height="128">
+</div>
+<div>
+<h4>Aplicación 4</h4>
+<h4>Alberto Velasco Bautista</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>¿Que es la Contaminacion?</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <p><strong>Se entiende por contaminación ambiental la incorporación al medio ambiente de agentes nocivos en cualquier estado y de origen tanto biológico, como físico y químico peligrosos para la salud de los seres humanos, animales y plantas.</strong></p>
+    <p><strong>Mientras que la vida animal y vegetal se ha adaptado siempre perfectamente al ecosistema, la evolución humana en aras del progreso continuo ha adaptado el medio ambiente a sus intereses modificándolo para acomodarlo a sus necesidades con un impacto negativo que se ha venido acelerando geométricamente desde la revolución industrial.</strong></p>
+    <p><strong>En éste sentido los conceptos de cuidado medio ambiental y desarrollo industrial, como origen de la contaminación de aire agua y suelo, han estado en disputa total hasta no hace mucho, ya que la preocupación por los gases emanados en procesos industriales, los vertidos tóxicos, los residuos no degradables generados en la producción y transformación de bienes y servicios, y el exterminio de especies vegetales y animales, pese a deteriorar el medio ambiente en nuestro planeta, y con ello las condiciones para la vida de todos los seres que lo habitamos, no era considerado importante dentro de las empresas sino como obstáculo económico.</strong></p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/mi colonia1.jpg',1)"><img src="imagenes/contaminacion13.jpg" width="60%" height="60%" id="Image29"></a>
+    <p>&nbsp;</p>
+    <p><strong>Desde hace algunas décadas, las consecuencias del impacto madio ambiental producido por la población mundial y la industria, está concienciando a los gobiernos de muchos países sobre la necesidad de adoptar medidas eficaces para frenar y reducir un desequilibrio de proporciones catastróficas, con campañas dirigidas a la población, y medidas específicas dirigidas al sector productivo. Dentro de la contaminación ambiental se pueden distinguir dos tipos fundamentales de fuentes de emisión, en función de su origen:</strong></p>
+    <p><strong>Contaminación de origen natural, que se generan en la naturaleza sin intervención de la mano humana.</strong></p>
+    <p><strong>Contaminación de origen antropogénico, que se produce como consecuencia de las acciones humanas.</strong></p>
+    <p><strong>Entre las fuentes de emisión de contaminantes de éste origen, las principales se producen por vía industrial, comercial, de transporte y domésticas.</strong></p>
+    <br>
+    <h2>&nbsp;</h2>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/leaves-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 4,VBA</h4>
+   </div>
+  </div>
+
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+ <h1>Tipos De Contaminacion</h1>
+ </div>
+  <div data-role="content" align="left">
+  <div>
+    <p align="center"><span id="tipos-de-contaminacion-ambiental"><strong>Tipos de contaminación ambiental</strong></span></p>
+    <p>  <img src="imagenes/Contaminacion3.jpg" width="60%" height="60%" align="middle">&nbsp;</p>
+    <p>Se pueden establecer diferentes clasificaciones de los tipos de <strong>contaminación ambiental</strong> en base a las variables que se manejen como puede ser el medio afectado, o el tipo de contaminante que lo produce.</p>
+    <p>Existen tres tipos de <strong>contaminación ambiental</strong> en función del medio afectado, que son las siguientes:</p>
+    <ol>
+      <li><strong>Contaminación ambiental del aire</strong> que es la incorporación a la atmósfera de gases tóxicos y elementos que transforman la composición natural del aire que respiramos, y destruyen la capa de ozono que nos protege de las radiaciones ultravioletas procedentes del sol, aumentando los riesgos de contraer enfermedades de la piel, y la temperatura media del planeta por la incidencia más directa del sol sobre la tierra.</li>
+      <li>La <strong>contaminación del agua</strong> que se produce por el vertido de <strong>sustancias contaminantes</strong> tóxicas y nocivas, como productos químicos, aguas fecales, residuos industriales, y microorganismos, que inhabilitan el agua como recurso básico para la vida, y su utilización en higiene y otros usos.</li>    <p>  <img src="imagenes/contaminacion8.jpg" width="60%" height="60%" align="middle">
+      <li>La <strong>contaminación del suelo</strong>, mediante la incorporación de sustancias y materias extrañas procedentes de basuras domésticas, residuos tóxicos industriales, pesticidas, lodos, restos o envases plásticos y metálicos, escombros, y otra serie de <strong>elementos contaminantes</strong> que trastornan el medio en el que convivimos plantas, animales y personas.</li>
+    </ol>
+    <p>Por el tipo de <strong>contaminante</strong> que produce <strong>la contaminación ambiental</strong> se puede hablar de:</p>
+    <ol>
+      <li><strong>Contaminación biológica</strong> con desechos orgánicos que favorecen la proliferación de bacterias que en sus procesos consumen el oxígeno presente en el agua.</li>
+    </ol>
+    <p>También son <strong>contaminantes biológicos</strong> los virus, hongos y otros parásitos.</p>
+    <ol>
+      <li><strong>Contaminación física</strong> es la producida por variaciones bruscas de temperaturas, radiaciones electromagnéticas, o nucleares, intensidad luminosa, sonora y vibraciones, entre otros.</li>
+      <li><strong>Contaminación química</strong> es la que se produce por el vertido de elementos químicos y compuestos de estos.</li> <img src="imagenes/contaminacion4.jpg" width="60%" height="60%" align="middle">
+      <li><strong>Contaminación visual</strong>, producida por el impacto negativo en el entorno generado por edificación masiva o con ubicaciones desafortunadas, desertización, o almacenamiento indiscriminado de residuos, entre otros.</li>
+    </ol>
+    <br>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+<div>
+ <img src="res/android/leaves-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 4,VBA</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Las Consecuencias Ambientales</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <h3><span id="consecuencias-de-la-contaminacion-ambiental">Consecuencias de la contaminación ambiental</span></h3>
+    <p>  <img src="imagenes/contaminacion2.jpg" width="60%" height="60%">
+    <p align="left">El cambio de tendencia en los hábitos empresariales dentro del sector industrial, con un adecuado plan y tratamiento de residuos, ayuda a frenar <strong>las consecuencias de la contaminación </strong>ambiental como crisis irreversible con consecuencias catastróficas a nivel planetario, entre las que se encuentran:</p>
+    <div align="left">
+      <ul>
+        <li><strong>La contaminación de aire, agua y suelo</strong>, que son los recursos básicos para la vida de todos los seres en nuestro planeta.</li>
+        <li>Desaparición de la capa de ozono que protege a la tierra de las radiaciones directas del sol por efecto de los <strong>agentes contaminantes</strong> en el aire, con resultados de cambio climático, desertización de grandes zonas, subida de temperaturas anuales, desaparición de las placas de hielo en los casquetes polares, aumento de fenómenos meteorológicos de violencia incontrolable, entre otros.</li>
+        <li>El aumento constante de la temperatura media del planeta, es otra de las graves <strong>consecuencias de la contaminación del aire</strong>, porque favorece el aumento de plagas de insectos trasmisores de enfermedades infecciosas.</li>
+        <li>Aumento del nivel de los mares como efecto del deshielo de los casquetes polares, con desaparición de grandes extensiones geográficas, y la amenaza de desaparición en un futuro no muy lejano de países enteros, son otra de las <strong>consecuencias de la contaminación.</strong></li>
+        <li>Pérdida irreparable de ecosistemas y biodiversidad, producidos por el desequilibrio en los entornos vitales y en su cadena alimentaria.</li>
+        <li>Entre las <strong>causas de la contaminación ambiental</strong> más graves está el envenenamiento de especies marinas y terrestres y el consiguiente peligro de intoxicación de los alimentos procedentes de la agricultura, pesca y ganadería necesarios para abastecer a una población mundial en constante aumento.</li>
+        <li>Por no hablar de la situación a nivel local en grandes zonas de desarrollo industrial y urbano, en las que la acumulación de basura sin un adecuado plan de gestión de residuos, llega a puntos tales que invade las zonas habitables, cultivables e incluso espacios naturales en dónde <strong>agentes contaminantes</strong> como los restos de escombro, latas, envases plásticos, neumáticos y otros no degradables se acumulan indiscriminadamente.</li>
+      </ul>
+    </div>
+    <p align="left">En éste sentido el concepto eco-eficiente hace referencia a la consecución de unos objetivos productivos adoptando medidas responsables que frenen y eviten el impacto sobre el <strong>medio ambiente.</strong></p>
+    <p align="left">La <strong>gestión de residuos</strong>, y el uso responsable de recursos renovables y no renovables, ocupa un papel fundamental dentro de un sistema productivo eco-eficiente, y un desarrollo sostenible, para frenar los <strong>orígenes de la contaminación ambiental</strong>.</p>
+    <p>&nbsp;  </p>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+ <img src="res/android/leaves-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 4,VBA</h4>
+   </div>
+  </div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+ <h1>¿Que es el Reciclaje?</h1>
+ </div>
+ <div>
+   <h2>
+   <p><b>Se pueden establecer clasificaciones de los tipos de contaminacion ambiental en base alas variables que se manejen como puede ser el medio afectado, o el tipo de contaminante que lo produce. 
+   </b></p>
+   <p><b>porejemplo esto es la clsificacion en que se realiza la clasificacion de los elementos de la basura y puede ser mas sencillo realizar esta accion para la conservacion de la clasificaion de los elementos desechables </b></p>
+   <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/contaminacion4.jpg',1)"><img src="imagenes/contaminacion6.jpg" width="60%" height="60%" id="Image30"></a></h2>
+   <h2>Definición de reciclaje</h2>
+   <p>El <strong>reciclaje</strong> consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizados. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos.El reciclaje surje no sólo para eliminar residuos, sino para hacer frente al agotamiento de los recursos naturales del planeta.</p>
+   <h2>El proceso del reciclaje</h2>
+   <p>Todo este proceso del reciclaje, pasa por varias fases:</p>
+   <p>El reciclaje comienza en entornos industriales y domésticos, mediante la separación de los materiales. El siguiente paso consiste en la recuperación de estos materiales por las empresas públicas y privadas y su posterior traslado a las plantas de transferencia.</p>
+   <p>En estas plantas, se almacenan y compactan grandes cantidades de residuos, para su posterior transporte en grandes cantidades hacia las plantas de reciclaje, llamadas plantas clasificadoras. Es aquí cuando se hace una separación exhaustiva de los residuos. En estas plantas, encontramos en algunos casos, las plantas de valoración, o reciclador final, donde se obtienen nuevas materias o productos, se almacenan los materiales en grandes vertederos, o bien se produce energía como es el caso de las plantas de biogas.</p>
+   <p><br>
+     <a href="http://www.inforeciclaje.com/que-es-reciclaje.php" target="_self">Da click aquí </a> </p>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div>
+ <img src="res/android/leaves-icon.png" width="128" height="128">
+</div>
+   <h4>Aplicación 4,VBA</h4>
+</div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>¿Como combatirla?</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <p><b>Se colocarán botes para depositar basura en su lugar, podrá ser una manera más facil para combatir la contaminación; y así, poder reponer el medio ambiente a su estado normal, y tener en cuenta que el estar cntaminando el planeta, NO es una manera de vivencia, de lo cual, podría afectar a futuras generaciones, y tener consecuencias graves: como enfermadades respiratorias, problemas de visión, y eso, ser lo más grave que pueda sufrir nuestro planeta. ya que hoy en dia no se ha podido corregir la contaminacion de lo cual ha sido un problema muy grave para el planeta y lo mas peligroso es que el planeta sigue con complicaciones por la contaminacion del medio ambiente.</b></p>
+  <p><b>por ejemplo:</b></p>
+  <ul>
+    <li><b>El aumento constante de la temperatura media del planeta, es otra de las graves consecuencias de la contaminación del aire, porque favorece el aumento de plagas de insectos trasmisores de enfermedades infecciosas.</b></li><br><!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/contaminacion2.jpg" alt="contaminacion2" title="contaminacion2" id="wows1_0"/></li>
+		<li><img src="data1/images/contaminacion3.jpg" alt="Contaminacion3" title="Contaminacion3" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacion4.jpg" alt="contaminacion4" title="contaminacion4" id="wows1_2"/></li>
+		<li><img src="data1/images/contaminacion5.jpg" alt="contaminacion5" title="contaminacion5" id="wows1_3"/></li>
+		<li><img src="data1/images/contaminacion6.jpg" alt="contaminacion6" title="contaminacion6" id="wows1_4"/></li>
+		<li><img src="data1/images/mi_colonia1.jpg" alt="mi colonia1" title="mi colonia1" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/mi_colonia2.jpg" alt="bootstrap slider" title="mi colonia2" id="wows1_6"/></a></li>
+		<li><img src="data1/images/contaminacion13.jpg" alt="contaminacion13" title="contaminacion13" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminacion2"><span><img src="data1/tooltips/contaminacion2.jpg" alt="contaminacion2"/>1</span></a>
+		<a href="#" title="Contaminacion3"><span><img src="data1/tooltips/contaminacion3.jpg" alt="Contaminacion3"/>2</span></a>
+		<a href="#" title="contaminacion4"><span><img src="data1/tooltips/contaminacion4.jpg" alt="contaminacion4"/>3</span></a>
+		<a href="#" title="contaminacion5"><span><img src="data1/tooltips/contaminacion5.jpg" alt="contaminacion5"/>4</span></a>
+		<a href="#" title="contaminacion6"><span><img src="data1/tooltips/contaminacion6.jpg" alt="contaminacion6"/>5</span></a>
+		<a href="#" title="mi colonia1"><span><img src="data1/tooltips/mi_colonia1.jpg" alt="mi colonia1"/>6</span></a>
+		<a href="#" title="mi colonia2"><span><img src="data1/tooltips/mi_colonia2.jpg" alt="mi colonia2"/>7</span></a>
+		<a href="#" title="contaminacion13"><span><img src="data1/tooltips/contaminacion13.jpg" alt="contaminacion13"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+    <li>Aumento del nivel de los mares como efecto del deshielo de los casquetes polares, con desaparición de grandes extensiones geográficas, y la amenaza de desaparición en un futuro no muy lejano de países enteros, son otra de las <strong>consecuencias de la contaminación.</strong></li>
+    <li>Pérdida irreparable de ecosistemas y biodiversidad, producidos por el desequilibrio en los entornos vitales y en su cadena alimentaria.</li>
+    <li>Entre las <strong>causas de la contaminación ambiental</strong> más graves está el envenenamiento de especies marinas y terrestres y el consiguiente peligro de intoxicación de los alimentos procedentes de la agricultura, pesca y ganadería necesarios para abastecer a una población mundial en constante aumento.</li>
+  </ul>
+  <p>&nbsp; </p>
+  </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+ <img src="imagenes/leaves-icon.png" width="46" height="46">
+</div>
+   <h4>Aplicación 4,VBA</h4>
+  </div>
+  </div>
+</body>
+</html>   
